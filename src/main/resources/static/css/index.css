@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323");
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', 'Monaco', monospace;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    color: #a0a2ae;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1{
+    font-size : 4em;
+    margin-top : 2.5em;
+
+    text-align : center;
+}
+
+
+button {
+    font-family: 'VT323', monospace;
+    width : 100%;
+    margin-top: 10px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+	color: #4dfa02;
+	outline: none;
+	font-size: 1.8em;
+}
+
+.message {
+    margin-bottom : 1em;
+    line-height: 1.25;
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
+
+}
+
+
+
