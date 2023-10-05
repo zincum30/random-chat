@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323");
+
+.groupChattingWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'VT323', monospace;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.chattingRoomHeader{
+    line-height: 1.5;
+    color: #4dfa02;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.chattingRoomBody {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    height: 100%;
+}
+
+.chattingMessageArea {
+    height: 100%;
+}
+
+.chattingSendArea {
+    display: flex;
+    height: 10em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.chattingTextArea {
+    width: 80%;
+    resize: none;
+    white-space: pre-wrap;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    font-family: 'VT323', monospace;
+    overflow: hidden;
+    background: transparent;
+}
+.chattingSendButton {
+    outline: 1, solid, #fff;
+    color: #fff;
+    background:transparent;
+    
+}
