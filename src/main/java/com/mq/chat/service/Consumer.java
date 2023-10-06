@@ -7,9 +7,9 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ChatMessageListener {
+public class Consumer {
 
-    private static final Logger log = LoggerFactory.getLogger(ChatMessageListener.class);
+    private static final Logger log = LoggerFactory.getLogger(Consumer.class);
 
     @RabbitListener(queues = "hello")
     public void receiveMessage(Message message) {
